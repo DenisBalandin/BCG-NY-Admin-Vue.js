@@ -1,0 +1,304 @@
+body, .main-panel {
+	background: #333333;
+}
+
+.md-field:before, .md-field.md-theme-default:before, .md-button.md-theme-default.md-primary, .md-field:before, .md-field.md-theme-default:before, .md-button.md-theme-default.md-primary, .swal2-styled.swal2-confirm, .swal2-icon.swal2-success [class^=swal2-success-line], .md-button.md-info, .md-button.md-info:hover, .md-button.md-info:focus, .md-button.md-info:active, .md-button.md-info.active, .md-button.md-info:active:focus, .md-button.md-info:active:hover, .md-button.md-info.active:focus, .md-button.md-info.active:hover, .open > .md-button.md-info.dropdown-toggle, .open > .md-button.md-info.dropdown-toggle:focus, .open > .md-button.md-info.dropdown-toggle:hover {
+	background-color: #125e79 !important;
+}
+
+.md-button.md-warning.md-simple i, .md-button.md-warning.md-simple:hover i, .md-button.md-warning.md-simple:focus i, .md-button.md-warning.md-simple:active i, .md-button.md-warning.md-simple.active i, .md-button.md-warning.md-simple:active:focus i, .md-button.md-warning.md-simple:active:hover i, .md-button.md-warning.md-simple.active:focus i, .md-button.md-warning.md-simple.active:hover i, .icon_txt, .swal2-icon.swal2-error {
+	color: #125e79 !important;
+}
+
+.swal2-icon.swal2-error {
+	border-color: #125e79 !important;
+}
+
+h3.md-title, .md-toolbar.md-transparent .md-title {
+	color: #333 !important;
+	padding: 0;
+	height: auto;
+}
+
+.swal2-icon.swal2-success .swal2-success-ring {
+	border: .25em solid rgb(17, 93, 121) !important;
+}
+
+.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left] {
+
+}
+
+.md-card .md-card-header .card-icon, .md-card .md-card-header .card-text {
+	background: #186729 !important;
+}
+
+.md-layout-item.md-size-50 {
+	position: relative;
+}
+
+.results_holder > h3 {
+	margin-top: 0 !important;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.results_holder > h3, .page_title {
+	margin-bottom: 20px;
+}
+
+.md-button.md-theme-default {
+	background-color: #186729 !important;
+}
+
+.md-card {
+	margin-top: 0;
+}
+
+.md-card img.loader {
+	height: auto;
+	width: 150px;
+	max-height: 100%;
+}
+
+.login-page {
+	z-index: 9999;
+}
+
+.main-panel > .content {
+	padding-top: 0;
+}
+
+.sidebar {
+	background-color: white !important;
+	border-color: white !important;
+}
+
+.sidebar:after, .off-canvas-sidebar:after {
+	background: #484848 !important;
+}
+
+.sidebar[data-background-color="black"] .md-list li .nav-link, .off-canvas-sidebar[data-background-color="black"] .md-list li .nav-link, .sidebar-mini .sidebar .logo a.logo-normal {
+	color: white !important;
+}
+
+.logout {
+	color: #125e79 !important;
+}
+
+.sidebar-mini .sidebar .logo a.logo-normal {
+	max-width: 100px;
+}
+
+.sidebar[data-background-color="black"] .nav .md-icon.md-theme-default.md-icon-font, .sidebar[data-background-color="black"] .navbar-minimize .md-button i, .off-canvas-sidebar[data-background-color="black"] .nav .md-icon.md-theme-default.md-icon-font, .off-canvas-sidebar[data-background-color="black"] .navbar-minimize .md-button i {
+	color: white !important;
+}
+
+.sidebar-mini .sidebar .sidebar-wrapper > .nav li > a p,  .sidebar-mini .sidebar .sidebar-wrapper > .nav li {
+	color: white;
+}
+
+.sidebar .logo .simple-text .logo-img img, .off-canvas-sidebar .logo .simple-text .logo-img img {
+	width: 100%;
+}
+
+.white_icon {
+	filter: brightness(0) invert(1);
+}
+
+.md-card img {
+	max-height: 60px;
+	width: auto;
+	height: 100% !important
+}
+
+.icon_txt {
+	display: flex;
+	align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    color: #4297d4;
+    cursor: pointer;
+}
+
+.md-card.md-theme-default {
+	margin-top: 10px;
+	background: white;
+}
+
+.icon_txt i {
+	margin-right: 10px;
+}
+
+.kiosk_statcard {
+	padding: 10px 30px;
+}
+
+.kiosk_statcard .name {
+	font-size: 25px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 0;
+}
+
+.kiosk_statcard .details {
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+.kiosk_statcard .name span {
+	font-size: 16px;
+	color: #125e79;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.kiosk_statcard .stats {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.kiosk_statcard .stats .stat {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 20px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.kiosk_statcard .stats .stat i {
+	filter: brightness(0) invert(1);
+	font-size: 20px;
+}
+
+.kiosk_statcard .stats .stat p, .kiosk_statcard .stats .stat span {
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	margin-top: 10px;
+}
+
+.page_title {
+	width: 100%;
+	font-weight: bold;
+	margin-top: 0;
+	padding-left: 15px;
+}
+
+.back {
+	padding-left: 15px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #69b96c;
+	cursor: pointer;
+	margin: 0;
+}
+
+.sidebar .logo p.logout {
+    margin: 0;
+    float: none;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    color: #69b96c !important;
+}
+
+footer.footer {
+	display: none !important;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.stats {
+	display: flex;
+	cursor: pointer;
+}
+
+.stats p {
+	margin: 0;
+	color: #69b96c !important;
+	font-size: 16px;
+}
+
+.md-card .md-card-actions .stats.clickable .md-icon.md-theme-default.md-icon-font {
+	color: #125e79 !important;
+}
+
+/*.md-toolbar, .login-page .footer .copyright, .login-page .footer a {
+	display: none !important;
+}*/
+
+.text_btn {
+	color: #125e79;
+	padding: 5px 15px;
+	text-decoration: underline;
+	text-underline-position: under;
+	cursor: pointer;
+	transition: opacity .3s;
+}
+
+.text_btn:hover {
+	opacity: .8;
+}
+
+.md-select-menu .md-list-item.md-selected .md-list-item-button, .md-select-menu .md-list-item .md-list-item-button:hover {
+	background-color: #125e79 !important;
+}
+
+.md-card-stats .md-card-header .category {
+    color: #ffffff !important;
+    font-size: 14px;
+    /* font-weight: bold !important; */
+}
+
+.md-card.md-theme-default {
+    margin-top: 10px;
+    background: #ffffff24;
+}
+
+.md-card .md-card-header.md-card-header-icon .title, .md-card .md-card-header.md-card-header-text .title {
+    color: #69b96c !important;
+}
+
+.md-card [data-background-color="rose"], .md-card .md-tabs.md-rose .md-tabs-navigation, .md-card .md-card-header-rose .card-icon, .md-card .md-card-header-rose:not(.md-card-header-icon):not(.md-card-header-text), .md-card .md-card-header-rose .card-text {
+    /* -webkit-box-shadow: 0 12px 20px -10px rgba(233, 30, 99, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(233, 30, 99, 0.2); */
+    box-shadow: 0 12px 20px -10px rgb(48, 51, 51), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(19, 19, 19, 0.2) !important;
+}
+.md-card [data-background-color="blue"], .md-card .md-tabs.md-info .md-tabs-navigation, .md-card .md-card-header-blue .card-icon, .md-card .md-card-header-blue:not(.md-card-header-icon):not(.md-card-header-text), .md-card .md-card-header-blue .card-text {
+    /* -webkit-box-shadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2); */
+    box-shadow: 0 12px 20px -10px rgb(48, 51, 51), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(19, 19, 19, 0.2) !important;
+}
+
+.md-field:before, .md-field.md-theme-default:before, .md-button.md-theme-default.md-primary, .md-field:before, .md-field.md-theme-default:before, .md-button.md-theme-default.md-primary, .swal2-styled.swal2-confirm, .swal2-icon.swal2-success [class^=swal2-success-line], .md-button.md-info, .md-button.md-info:hover, .md-button.md-info:focus, .md-button.md-info:active, .md-button.md-info.active, .md-button.md-info:active:focus, .md-button.md-info:active:hover, .md-button.md-info.active:focus, .md-button.md-info.active:hover, .open > .md-button.md-info.dropdown-toggle, .open > .md-button.md-info.dropdown-toggle:focus, .open > .md-button.md-info.dropdown-toggle:hover {
+    background-color: #186729 !important;
+}
+
+.md-button.md-warning.md-simple i, .md-button.md-warning.md-simple:hover i, .md-button.md-warning.md-simple:focus i, .md-button.md-warning.md-simple:active i, .md-button.md-warning.md-simple.active i, .md-button.md-warning.md-simple:active:focus i, .md-button.md-warning.md-simple:active:hover i, .md-button.md-warning.md-simple.active:focus i, .md-button.md-warning.md-simple.active:hover i, .icon_txt, .swal2-icon.swal2-error {
+    color: #186729 !important;
+}
+
+.pagination.pagination-success > .page-item.active > a {
+    background-color: #186729 !important;
+}
+
+.md-checkbox.md-checked .md-checkbox-container:after {
+    border-color: #186729 !important;
+    top: 1px;
+    left: 6px;
+}

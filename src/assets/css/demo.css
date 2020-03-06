@@ -1,0 +1,164 @@
+.tim-row {
+  margin-bottom: 20px;
+}
+
+.tim-white-buttons {
+  background-color: #777777;
+}
+
+.typography-line {
+  padding-left: 25%;
+  margin-bottom: 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.typography-line span {
+  bottom: 10px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  left: 0;
+  position: absolute;
+  width: 260px;
+  text-transform: none;
+}
+
+.tim-row {
+  padding-top: 60px;
+}
+
+.tim-row h3 {
+  margin-top: 0;
+}
+
+.offline-doc .page-header {
+  display: flex;
+  align-items: center;
+}
+
+.offline-doc .footer {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  bottom: 0;
+  color: #fff;
+  z-index: 1;
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.tim-typo {
+  padding-left: 25%;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.tim-typo .tim-note {
+  bottom: 5px;
+  color: #c0c1c2;
+  display: block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  left: 0;
+  margin-left: 20px;
+  position: absolute;
+  width: 260px;
+}
+
+#typography h1,
+#typography h2,
+#typography h3,
+#typography h4,
+#typography h5,
+#typography h6 {
+    margin: 0;
+}
+
+
+
+
+/*OVERRRIDES */
+body,
+.main-panel{
+    background-color: #000;
+}
+h3.md-title,
+.md-toolbar.md-transparent .md-title{
+    color:#fff !important;
+}
+
+/*DARK BLUE*/
+.md-field:before, .md-field.md-theme-default:before,
+.md-button.md-theme-default.md-primary{
+    background-color:#1f479a !important;
+}
+.md-button.md-success, .md-button.md-success:hover, .md-button.md-success:focus, .md-button.md-success:active, .md-button.md-success.active, .md-button.md-success:active:focus, .md-button.md-success:active:hover, .md-button.md-success.active:focus, .md-button.md-success.active:hover, .open > .md-button.md-success.dropdown-toggle, .open > .md-button.md-success.dropdown-toggle:focus, .open > .md-button.md-success.dropdown-toggle:hover {
+    background-color:#1f479a !important;
+}
+.swal2-icon.swal2-success [class^=swal2-success-line],
+.md-button.md-info, .md-button.md-info:hover, .md-button.md-info:focus, .md-button.md-info:active, .md-button.md-info.active, .md-button.md-info:active:focus, .md-button.md-info:active:hover, .md-button.md-info.active:focus, .md-button.md-info.active:hover, .open > .md-button.md-info.dropdown-toggle, .open > .md-button.md-info.dropdown-toggle:focus, .open > .md-button.md-info.dropdown-toggle:hover
+{
+    background-color:#1f479a !important;
+}
+.md-card .md-card-header-green .card-icon, .md-card .md-card-header-green .card-text, .md-card .md-card-header-green:not(.md-card-header-icon):not(.md-card-header-text), .md-card [data-background-color="green"], .md-card .md-tabs.md-success .md-tabs-navigation {
+    background:#1f479a !important;
+    box-shadow: 0 2px 2px 0 rgba(31, 71, 154, 0.14), 0 3px 1px -2px rgba(31, 71, 154, 0.2), 0 1px 5px 0 rgba(31, 71, 154, 0.12) !important;
+}
+.md-button.md-info.md-simple i, .md-button.md-info.md-simple:hover i, .md-button.md-info.md-simple:focus i, .md-button.md-info.md-simple:active i, .md-button.md-info.md-simple.active i, .md-button.md-info.md-simple:active:focus i, .md-button.md-info.md-simple:active:hover i, .md-button.md-info.md-simple.active:focus i, .md-button.md-info.md-simple.active:hover i {
+    color:#1f479a !important;
+}
+.md-button.md-success,
+.md-button.md-info:focus, .md-button.md-info:active, .md-button.md-info:hover{
+    box-shadow: 0 2px 2px 0 rgba(31, 71, 154, 0.14), 0 3px 1px -2px rgba(31, 71, 154, 0.2), 0 1px 5px 0 rgba(31, 71, 154, 0.12) !important;
+
+}
+.swal2-icon.swal2-success .swal2-success-ring {
+    border:.25em solid rgba(31, 71, 154,.3) !important;
+}
+
+.md-button.md-primary {
+    box-shadow: 0 2px 2px 0 rgba(31, 71, 154, 0.14), 0 3px 1px -2px rgba(31, 71, 154, 0.2), 0 1px 5px 0 rgba(31, 71, 154, 0.12) !important;
+}
+.pagination.pagination-success > .page-item.active > a {
+    background-color:#4297d4 !important;
+}
+.swal2-icon.swal2-warning {
+    border-color:#4297d4 !important;
+    color:#4297d4 !important;
+}
+.main-panel > .footer {
+    border-top:0 !important;
+}
+/*SIDEBAR VUE*/
+.sidebar {
+    background-color: #282828 !important;
+    border-color: #282828 !important;
+    
+}
+.off-canvas-sidebar .logo .simple-text .logo-img img {
+    filter: brightness(0) invert(1);
+}
+.md-button.md-warning.md-simple i, .md-button.md-warning.md-simple:hover i, .md-button.md-warning.md-simple:focus i, .md-button.md-warning.md-simple:active i, .md-button.md-warning.md-simple.active i, .md-button.md-warning.md-simple:active:focus i, .md-button.md-warning.md-simple:active:hover i, .md-button.md-warning.md-simple.active:focus i, .md-button.md-warning.md-simple.active:hover i {
+    color:#4297d4 !important;
+}
+
+.sidebar:after, .off-canvas-sidebar:after {
+    background-color: #282828 !important;
+}
+.sidebar .logo .simple-text .logo-img {
+    background: none;
+}
+.md-button.md-primary:focus, .md-button.md-primary:active, .md-button.md-primary:hover,
+.md-button.md-primary, .md-button.md-primary:hover, .md-button.md-primary:focus, .md-button.md-primary:active, .md-button.md-primary.active, .md-button.md-primary:active:focus, .md-button.md-primary:active:hover, .md-button.md-primary.active:focus, .md-button.md-primary.active:hover, .open > .md-button.md-primary.dropdown-toggle, .open > .md-button.md-primary.dropdown-toggle:focus, .open > .md-button.md-primary.dropdown-toggle:hover{
+    background-color:#4297d4 !important;
+}
